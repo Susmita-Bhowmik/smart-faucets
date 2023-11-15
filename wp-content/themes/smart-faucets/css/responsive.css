@@ -1,0 +1,823 @@
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+  h2 {
+    font-size: 30px;
+  }
+  .main-header .nav-last a {
+    font-size: 12px;
+  }
+  .main-banner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .main-banner .fig-holder {
+    height: 420px;
+  }
+  .main-banner .banner_text span {
+    font-size: 25px;
+  }
+  .main-banner .slick-prev {
+    bottom: 30px;
+  }
+  .main-banner .slick-next {
+    bottom: 30px;
+  }
+  .product_slider_box .text {
+    min-height: 637px;
+  }
+  .smart-faucets ul a {
+    font-size: 14px;
+  }
+  .hours_index ul li {
+    flex: 0 0 22%;
+  }
+  .smart-faucets .contact-info ul {
+    flex-wrap: wrap;
+  }
+  .Services_main .fig-holder {
+    height: 358px;
+  }
+  .Services_main .about-slider img {
+    height: 100%;
+  }
+  .about-company h2 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .product_slider_box h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .main-footer .bottom {
+    padding: 20px 0;
+  }
+  .iapmo_inner .heading h3 {
+    font-size: 18px;
+  }
+  .iapmo_inner .fig_holder {
+    height: 460px;
+  }
+  .about-page-banner h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px) {
+  h2 {
+    font-size: 30px;
+  }
+  .main-header .nav-wapper {
+    gap: 15px;
+  }
+  .main-header .nav-last ul {
+    gap: 12px;
+  }
+  .main-header .nav-last a {
+    font-size: 12px;
+  }
+  .main-banner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .main-banner .fig-holder {
+    height: 420px;
+  }
+  .main-banner .banner_text span {
+    font-size: 25px;
+  }
+  .main-banner .slick-prev {
+    bottom: 30px;
+  }
+  .main-banner .slick-next {
+    bottom: 30px;
+  }
+  .product_slider_box .text {
+    min-height: 450px;
+  }
+  .smart-faucets ul a {
+    font-size: 14px;
+  }
+  .hours_index ul li {
+    flex: 0 0 22%;
+  }
+  .smart-faucets .contact-info ul {
+    flex-wrap: wrap;
+  }
+  .Services_main .fig-holder {
+    height: 358px;
+  }
+  .Services_main .about-slider img {
+    height: 100%;
+  }
+  .about-company h2 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .product_slider_box h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .main-footer .bottom {
+    padding: 20px 0;
+  }
+  .iapmo_inner .heading h3 {
+    font-size: 18px;
+  }
+  .iapmo_inner .fig_holder {
+    height: 382px;
+  }
+  .about-page-banner h2 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 992px) {
+  h2 {
+    font-size: 28px;
+  }
+  .main-header .nav-wapper {
+    gap: 15px;
+  }
+  .main-header .nav-last ul {
+    gap: 12px;
+  }
+  .main-header .nav-last a {
+    font-size: 12px;
+  }
+  .main-banner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .main-banner p {
+    font-size: 20px;
+  }
+  .main-banner .fig-holder {
+    height: 378px;
+  }
+  .main-banner .banner_text span {
+    font-size: 25px;
+  }
+  .main-banner .slick-prev {
+    bottom: 30px;
+  }
+  .main-banner .slick-next {
+    bottom: 30px;
+    left: 55%;
+  }
+  .product_slider_box .text {
+    min-height: 450px;
+  }
+  .smart-faucets ul a {
+    font-size: 14px;
+  }
+  .hours_index ul li {
+    flex: 0 0 22%;
+  }
+  .smart-faucets .contact-info ul {
+    flex-wrap: wrap;
+  }
+  .Services_main .fig-holder {
+    height: 358px;
+  }
+  .Services_main .about-slider img {
+    height: 100%;
+  }
+  .about-company h2 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .about-company .slick-prev {
+    left: 22px;
+  }
+  .about-company .slick-next {
+    right: 22px;
+  }
+  .product_slider_box h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .main-footer .bottom {
+    padding: 15px 0;
+  }
+  .main-footer .bottom p {
+    font-size: 12px;
+  }
+  .iapmo_inner .fig_holder {
+    height: 385px;
+  }
+  .iapmo_inner .heading h3 {
+    font-size: 18px;
+  }
+  .about-page-banner h2 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .main-header .a_btn {
+    display: none;
+  }
+  .main-header .logo {
+    width: 120px;
+  }
+  .main-header .nav-wapper {
+    gap: 15px;
+  }
+  .main-header .nav-last ul {
+    gap: 10px;
+  }
+  .main-header .nav-last a {
+    font-size: 11px;
+  }
+  .main-banner .fig-holder {
+    height: 290px;
+  }
+  .main-banner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .main-banner p {
+    font-size: 20px;
+  }
+  .main-banner .banner_text span {
+    font-size: 25px;
+  }
+  .main-banner .slick-prev {
+    bottom: 30px;
+  }
+  .main-banner .slick-next {
+    bottom: 30px;
+    left: 55%;
+  }
+  .product_slider_box .text {
+    min-height: 528px;
+  }
+  .smart-faucets ul a {
+    font-size: 14px;
+  }
+  .hours_index ul li {
+    flex: 0 0 22%;
+  }
+  .smart-faucets .contact-info ul {
+    flex-wrap: wrap;
+  }
+  .Services_main .fig-holder {
+    height: 358px;
+  }
+  .Services_main .about-slider img {
+    height: 100%;
+  }
+  .about-company h2 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .about-company .slick-prev {
+    left: 22px;
+  }
+  .about-company .slick-next {
+    right: 22px;
+  }
+  .about-company .fig-holder {
+    height: 230px;
+  }
+  .product_slider_box h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .main-footer .slick-prev {
+    left: 45%;
+  }
+  .main-footer .slick-next {
+    left: 55%;
+  }
+  .main-footer .bottom {
+    padding: 10px 0;
+  }
+  .main-footer .bottom .wapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .main-footer .bottom p {
+    font-size: 12px;
+  }
+  .iapmo_inner .heading {
+    margin-bottom: 10px;
+  }
+  .iapmo_inner .heading h3 {
+    font-size: 13px;
+  }
+  .iapmo_inner .fig_holder {
+    height: 288px;
+  }
+  .iapmo_inner .slick-next {
+    left: 60%;
+  }
+  .iapmo_inner .slick-prev {
+    left: 36%;
+  }
+  .about-page-banner h2 {
+    font-size: 38px;
+  }
+  .about-page-banner .banner-text {
+    padding: 80px 0;
+  }
+  .welcome-about ul li {
+    flex: 0 0 100%;
+  }
+  .why-chose-about .fig-holder {
+    margin-bottom: 30px;
+  }
+  .why-chose-about .fig-holder figure {
+    background-size: 100% 100%;
+  }
+  .products_speci_slider .slick-prev {
+    left: 47%;
+  }
+  .smart-faucets .icon-holder {
+    width: 100%;
+    height: auto;
+  }
+  .products_main .slick-prev {
+    left: 44%;
+  }
+  .hours_index ul li {
+    flex: 0 0 27%;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 586px) {
+  .container {
+    max-width: 95%;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .main-header .a_btn {
+    display: none;
+  }
+  .main-header .logo {
+    width: 150px;
+  }
+  .main-header .nav-wapper {
+    gap: 15px;
+  }
+  .main-header .nav-last ul {
+    gap: 24px;
+  }
+  .main-header .nav-last a {
+    font-size: 14px;
+  }
+  .main-banner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .main-banner p {
+    font-size: 20px;
+  }
+  .main-banner .fig-holder {
+    height: 260px;
+  }
+  .main-banner .banner_text span {
+    font-size: 25px;
+  }
+  .main-banner .slick-prev {
+    bottom: 30px;
+    left: 45%;
+  }
+  .main-banner .slick-next {
+    bottom: 30px;
+    left: 55%;
+  }
+  .product_slider_box .text {
+    min-height: 450px;
+  }
+  .smart-faucets ul a {
+    font-size: 14px;
+  }
+  .hours_index ul li {
+    flex: 0 0 22%;
+  }
+  .smart-faucets .contact-info ul {
+    flex-wrap: wrap;
+  }
+  .Services_main .fig-holder {
+    height: 358px;
+  }
+  .Services_main .about-slider {
+    margin-bottom: 30px;
+  }
+  .Services_main .about-slider img {
+    height: 100%;
+  }
+  .about-company h2 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .about-company .slick-prev {
+    left: 22px;
+  }
+  .about-company .slick-next {
+    right: 22px;
+  }
+  .about-company .fig-holder {
+    height: 308px;
+  }
+  .about-company .about-slider {
+    margin-top: 30px;
+  }
+  .products_main .elements {
+    padding-right: 0;
+  }
+  .products_main .slick-prev {
+    left: 43%;
+  }
+  .product_slider_box h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .main-footer .slick-prev {
+    left: 45%;
+  }
+  .main-footer .slick-next {
+    left: 55%;
+  }
+  .main-footer .bottom {
+    padding: 10px 0;
+  }
+  .main-footer .bottom .wapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .main-footer .bottom p {
+    font-size: 12px;
+  }
+  .iapmo_inner .col_main_wapper {
+    margin-bottom: 20px;
+  }
+  .iapmo_inner .heading {
+    margin-bottom: 10px;
+  }
+  .iapmo_inner .heading h3 {
+    font-size: 13px;
+  }
+  .iapmo_inner .fig_holder {
+    height: 288px;
+  }
+  .iapmo_inner .slick-next {
+    left: 60%;
+  }
+  .iapmo_inner .slick-prev {
+    left: 36%;
+  }
+  .about-page-banner h2 {
+    font-size: 30px;
+  }
+  .about-page-banner .banner-text {
+    padding: 80px 0;
+  }
+  .welcome-about ul li {
+    flex: 0 0 100%;
+  }
+  .why-chose-about .fig-holder {
+    margin-bottom: 30px;
+  }
+  .why-chose-about .fig-holder figure {
+    background-size: 100% 100%;
+  }
+  .products_speci_slider .slick-prev {
+    left: 44%;
+  }
+  .mission-vision .box-wapper {
+    flex-wrap: wrap;
+  }
+  .mission-vision .fig-holder {
+    flex: 0 0 100%;
+  }
+  .mission-vision .text {
+    width: 100%;
+  }
+  .water_saving .icon-holder {
+    margin-bottom: 30px;
+  }
+  .water_saving ul li {
+    font-size: 16px;
+  }
+  .hours_index ul li {
+    flex: 0 0 40%;
+  }
+  .benefit_inner .fig_holder {
+    margin-bottom: 20px;
+  }
+  .products_speci .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .holiday_inner .fig_holder {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 585px) {
+  .container {
+    max-width: 95%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .span-text {
+    font-size: 20px;
+  }
+  .main-header .a_btn {
+    display: none;
+  }
+  .main-header .logo {
+    width: 150px;
+  }
+  .main-header .nav-wapper {
+    gap: 15px;
+  }
+  .main-header .nav-last ul {
+    gap: 24px;
+  }
+  .main-header .nav-last a {
+    font-size: 14px;
+  }
+  .main-banner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .main-banner p {
+    font-size: 20px;
+  }
+  .main-banner .fig-holder {
+    height: 208px;
+  }
+  .main-banner .banner_text span {
+    font-size: 25px;
+  }
+  .main-banner .slick-prev {
+    bottom: 30px;
+    left: 38%;
+  }
+  .main-banner .slick-next {
+    bottom: 30px;
+    left: 55%;
+  }
+  .product_slider_box .text {
+    min-height: 450px;
+  }
+  .smart-faucets ul a {
+    font-size: 14px;
+  }
+  .hours_index ul li {
+    flex: 0 0 22%;
+  }
+  .smart-faucets .contact-info ul {
+    flex-wrap: wrap;
+  }
+  .Services_main .fig-holder {
+    height: 180px;
+  }
+  .Services_main .about-slider {
+    margin-bottom: 30px;
+  }
+  .Services_main .about-slider img {
+    height: 100%;
+  }
+  .Services_main .slick-prev {
+    left: 22px;
+    width: 28px;
+    height: 28px;
+    background-size: 100%;
+  }
+  .Services_main .slick-next {
+    right: 22px;
+    width: 28px;
+    height: 28px;
+    background-size: 100%;
+  }
+  .about-company h2 {
+    font-size: 17px;
+    line-height: 40px;
+  }
+  .about-company .slick-prev {
+    left: 22px;
+    width: 28px;
+    height: 28px;
+    background-size: 100%;
+  }
+  .about-company .slick-next {
+    right: 22px;
+    width: 28px;
+    height: 28px;
+    background-size: 100%;
+  }
+  .about-company .fig-holder {
+    height: 160px;
+  }
+  .about-company .about-slider {
+    margin-top: 30px;
+  }
+  .about-company h5 {
+    font-size: 15px;
+  }
+  .about-company .text p {
+    margin-bottom: 0;
+  }
+  .products_main .elements {
+    padding-right: 0;
+  }
+  .products_main .slick-prev {
+    left: 35%;
+  }
+  .product_slider_box h3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .main-footer .top h2 {
+    line-height: 37px;
+  }
+  .main-footer .slick-prev {
+    left: 39%;
+  }
+  .main-footer .slick-next {
+    left: 59%;
+  }
+  .main-footer .bottom {
+    padding: 10px 0;
+  }
+  .main-footer .bottom .wapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .main-footer .bottom p {
+    font-size: 12px;
+  }
+  .iapmo_inner .col_main_wapper {
+    margin-bottom: 20px;
+  }
+  .iapmo_inner .heading {
+    margin-bottom: 10px;
+  }
+  .iapmo_inner .heading h3 {
+    font-size: 13px;
+  }
+  .iapmo_inner .fig_holder {
+    height: 288px;
+  }
+  .iapmo_inner .slick-next {
+    left: 60%;
+  }
+  .iapmo_inner .slick-prev {
+    left: 36%;
+  }
+  .about-page-banner h2 {
+    font-size: 30px;
+  }
+  .about-page-banner .banner-text {
+    padding: 80px 0;
+  }
+  .welcome-about .fig-holder {
+    margin-bottom: 20px;
+  }
+  .welcome-about ul li {
+    flex: 0 0 100%;
+  }
+  .why-chose-about .fig-holder {
+    margin-bottom: 30px;
+  }
+  .why-chose-about .fig-holder figure {
+    background-size: 100% 100%;
+  }
+  .products_speci_slider .slick-prev {
+    left: 35%;
+  }
+  .mission-vision .box-wapper {
+    flex-wrap: wrap;
+  }
+  .mission-vision .fig-holder {
+    flex: 0 0 100%;
+  }
+  .mission-vision .text {
+    width: 100%;
+  }
+  .water_saving .icon-holder {
+    margin-bottom: 30px;
+    height: 295px;
+  }
+  .water_saving ul li {
+    font-size: 16px;
+  }
+  .hours_index ul li {
+    flex: 0 0 100%;
+  }
+  .contact-us-main .contacts_holder .contact-us-page-submit {
+    width: 100%;
+  }
+  .smart-faucets .icon-holder {
+    width: 100%;
+    height: 279px;
+  }
+  .smart-faucets .icon-holder img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .mission-vision .button-wapper .a_btn {
+    flex: 0 0 100%;
+  }
+  .mission-vision .button-wapper .a_btn:last-child {
+    margin-top: 0;
+  }
+  .benefit_inner .fig_holder {
+    margin-bottom: 20px;
+  }
+  .products_speci .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .holiday_inner .fig_holder {
+    margin-bottom: 20px;
+  }
+  .contact-us_index .wpcf7-spinner {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 95%;
+  }
+  .pull_mob_nav {
+    display: block;
+    width: 55px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    z-index: 2;
+    border: 1px solid #0072EC;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #0072EC;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    top: 14px;
+  }
+  .main-header .logo {
+    width: 188px;
+  }
+  .main-header .a_btn {
+    display: none;
+  }
+  .main-header .nav-last {
+    display: none;
+  }
+  .main-header .nav-last a {
+    font-size: 14px;
+  }
+  .main-header .nav-last ul {
+    position: fixed;
+    flex-direction: column;
+    left: 0;
+    align-items: start;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    height: 100%;
+    padding: 30px;
+    width: 233px;
+    gap: 22px;
+  }
+  .main-header .nav-last .sub-menu {
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    min-width: auto;
+    display: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 10px;
+    opacity: 1;
+    visibility: visible;
+    width: 153px;
+  }
+  .main-header .nav-last .sub-menu li {
+    margin-bottom: 6px;
+    border-bottom: 1px dashed #D9D9D9;
+    padding-bottom: 5px;
+  }
+  .main-header .nav-last .sub-menu li:last-child {
+    margin-bottom: 0;
+  }
+  .main-header .nav-last .menu-dropdown {
+    width: 118px;
+  }
+  .main-header .nav-last .menu-dropdown:hover::after {
+    transform: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */

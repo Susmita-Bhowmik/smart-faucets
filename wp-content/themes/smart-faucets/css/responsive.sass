@@ -1,0 +1,849 @@
+=filter($filter_mode)
+    -webkit-filter: $filter_mode
+    -moz-filter: $filter_mode
+    -ms-filter: $filter_mode
+    -o-filter: $filter_mode
+    filter: $filter_mode
+
+=back-drop-filter($blur)
+    -webkit-backdrop-filter: $blur
+    -moz-backdrop-filter: $blur
+    -ms-backdrop-filter: $blur
+    -o-backdrop-filter: $blur
+    backdrop-filter: $blur
+
+=text-stroke-width($tstrokewidth)
+    -webkit-text-stroke-width: $tstrokewidth
+    -moz-text-stroke-width: $tstrokewidth
+    -ms-text-stroke-width: $tstrokewidth
+    -o-text-stroke-width: $tstrokewidth
+
+=text-stroke-color($tstrokecolor)
+    -webkit-text-stroke-color: $tstrokecolor
+    -moz-text-stroke-color: $tstrokecolor
+    -ms-text-stroke-color: $tstrokecolor 
+    -o-text-stroke-color: $tstrokecolor	
+
+=box-sizing($box)
+    -webkit-box-sizing: $box
+    -moz-box-sizing: $box
+    -ms-box-sizing: $box
+    -o-box-sizing: $box
+    webkit-box-sizing: $box
+
+=border-radius($round)
+    -webkit-border-radius: $round
+    -moz-border-radius: $round
+    -ms-border-radius: $round
+    border-radius: $round
+
+=transform($trans)
+    -webkit-transform: $trans
+    -moz-transform: $trans
+    -ms-transform: $trans
+    transform: $trans
+
+=transition($smooth)
+    -webkit-transition: $smooth
+    -moz-transition: $smooth
+    -o-transition: $smooth
+    transition: $smooth
+
+=appearance($appr)
+    -webkit-appearance: $appr
+    -moz-appearance: $appr
+    -o-appearance: $appr
+    appearance: $appr
+
+=box-shadow($bbs)
+    -webkit-box-shadow: $bbs
+    -moz-box-shadow: $bbs
+    -o-box-shadow: $bbs
+    box-shadow: $bbs
+
+=text-shadow($tbbs)
+    -webkit-text-shadow: $tbbs
+    -moz-text-shadow: $tbbs
+    -o-text-shadow: $tbbs
+    text-shadow: $tbbs
+
+
+$white: #ffff
+$black: #494949
+$black-shade: #3E3E3E
+$black-main: #000000
+$red-light: #E9422D
+$red: #C00009
+$red-shade: #CB0101
+$red-dark: #960007
+$color-paragraph: #333333
+$white-shade: #ABABAB
+$border-color: #BFBFBF
+$bg-extra: #CFCFCF
+$border-dash: #D9D9D9
+$blue: #0072EC
+$blue-light: #00D2FF
+$blue-dark: #1C3742
+$blue-light-shade: #ADD8E6
+$icon-twitter: #00acee
+$green-deep: #738E00
+$brown: #8F3C07
+$green-light: #8FBC02
+$green-shde: #CEF81E
+$yellow: #BFBF63DD
+$yellow-light: #FDFD96DD
+$testi-bg: #EDEDED
+$green-main: #08DC7D
+$pink-dark: #9D4949
+$pink: #CD7575
+$pink-shade: #DC8686
+$pink-light: #F9C5C5
+$pink-light-shade: #F8DFDF
+$pink-shade-dark: #F19B9B 
+$perpel: #3F0167
+$perpel-dark: #2E004D
+$grey: #616161
+$grey-dark: #939393
+
+// main
+@media only screen and ( max-width: 1399px ) and (min-width: 1200px)
+    h2
+        font-size: 30px
+    .main-header 
+        .nav-last 
+            a
+                font-size: 12px
+    .main-banner 
+        h1
+            font-size: 35px
+            line-height: 40px
+        .fig-holder
+            height: 420px
+        .banner_text 
+            span
+                font-size: 25px
+        .slick-prev
+            bottom: 30px
+        .slick-next
+            bottom: 30px
+    .product_slider_box 
+        .text
+            min-height: 637px
+    .smart-faucets 
+        ul 
+            a
+                font-size: 14px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 22%
+    .smart-faucets 
+        .contact-info 
+            ul
+                flex-wrap: wrap
+    .Services_main 
+        .fig-holder
+            height: 358px
+    .Services_main 
+        .about-slider 
+            img
+                height: 100%
+    .about-company 
+        h2
+            font-size: 22px
+            line-height: 40px
+    .product_slider_box 
+        h3
+            font-size: 24px
+            line-height: 32px
+    .main-footer 
+        .bottom
+            padding: 20px 0
+    .iapmo_inner 
+        .heading 
+            h3
+                font-size: 18px
+        .fig_holder
+            height: 460px
+    .about-page-banner 
+        h2
+            font-size: 50px
+// 
+@media only screen and ( max-width: 1199px ) and (min-width: 1024px)
+    h2
+        font-size: 30px
+    .main-header 
+        .nav-wapper
+            gap: 15px
+        .nav-last 
+            ul
+                gap: 12px
+            a
+                font-size: 12px
+    .main-banner 
+        h1
+            font-size: 35px
+            line-height: 40px
+        .fig-holder
+            height: 420px
+        .banner_text 
+            span
+                font-size: 25px
+        .slick-prev
+            bottom: 30px
+        .slick-next
+            bottom: 30px
+    .product_slider_box 
+        .text
+            min-height: 450px
+    .smart-faucets 
+        ul 
+            a
+                font-size: 14px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 22%
+    .smart-faucets 
+        .contact-info 
+            ul
+                flex-wrap: wrap
+    .Services_main 
+        .fig-holder
+            height: 358px
+    .Services_main 
+        .about-slider 
+            img
+                height: 100%
+    .about-company 
+        h2
+            font-size: 22px
+            line-height: 40px
+    .product_slider_box 
+        h3
+            font-size: 24px
+            line-height: 32px
+    .main-footer 
+        .bottom
+            padding: 20px 0
+    .iapmo_inner 
+        .heading 
+            h3
+                font-size: 18px
+        .fig_holder
+            height: 382px
+    .about-page-banner 
+        h2
+            font-size: 42px
+// 
+@media only screen and ( max-width: 1023px ) and (min-width: 992px)
+    h2
+        font-size: 28px
+    .main-header 
+        .nav-wapper
+            gap: 15px
+        .nav-last 
+            ul
+                gap: 12px
+            a
+                font-size: 12px
+    .main-banner 
+        h1
+            font-size: 35px
+            line-height: 40px
+        p
+            font-size: 20px
+        .fig-holder
+            height: 378px
+        .banner_text 
+            span
+                font-size: 25px
+        .slick-prev
+            bottom: 30px
+        .slick-next
+            bottom: 30px
+            left: 55%
+    .product_slider_box 
+        .text
+            min-height: 450px
+    .smart-faucets 
+        ul 
+            a
+                font-size: 14px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 22%
+    .smart-faucets 
+        .contact-info 
+            ul
+                flex-wrap: wrap
+    .Services_main 
+        .fig-holder
+            height: 358px
+    .Services_main 
+        .about-slider 
+            img
+                height: 100%
+    .about-company 
+        h2
+            font-size: 20px
+            line-height: 40px
+        .slick-prev
+            left: 22px
+        .slick-next
+            right: 22px
+    .product_slider_box 
+        h3
+            font-size: 24px
+            line-height: 32px
+    .main-footer 
+        .bottom
+            padding: 15px 0
+            p
+                font-size: 12px
+    .iapmo_inner 
+        .fig_holder
+            height: 385px
+        .heading 
+            h3
+                font-size: 18px
+    .about-page-banner 
+        h2
+            font-size: 42px
+// 
+@media only screen and ( max-width: 991px ) and (min-width: 768px)
+    .container
+        max-width: 95%
+    h2
+        font-size: 25px
+    .main-header 
+        .a_btn
+            display: none
+        .logo
+            width: 120px
+        .nav-wapper
+            gap: 15px
+        .nav-last 
+            ul
+                gap: 10px
+            a
+                font-size: 11px
+    .main-banner 
+        .fig-holder
+            height: 290px
+        h1
+            font-size: 35px
+            line-height: 40px
+        p
+            font-size: 20px
+        .banner_text 
+            span
+                font-size: 25px
+        .slick-prev
+            bottom: 30px
+        .slick-next
+            bottom: 30px
+            left: 55%
+    .product_slider_box 
+        .text
+            min-height: 528px
+    .smart-faucets 
+        ul 
+            a
+                font-size: 14px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 22%
+    .smart-faucets 
+        .contact-info 
+            ul
+                flex-wrap: wrap
+    .Services_main 
+        .fig-holder
+            height: 358px
+    .Services_main 
+        .about-slider 
+            img
+                height: 100%
+    .about-company 
+        h2
+            font-size: 20px
+            line-height: 40px
+        .slick-prev
+            left: 22px
+        .slick-next
+            right: 22px
+        .fig-holder
+            height: 230px
+    .product_slider_box 
+        h3
+            font-size: 24px
+            line-height: 32px
+    .main-footer 
+        .slick-prev
+            left: 45%
+        .slick-next
+            left: 55%
+        .bottom
+            padding: 10px 0
+            .wapper
+                justify-content: center
+                flex-wrap: wrap
+            p
+                font-size: 12px
+    .iapmo_inner 
+        .heading 
+            margin-bottom: 10px
+            h3
+                font-size: 13px
+        .fig_holder
+            height: 288px
+        .slick-next
+            left: 60%
+        .slick-prev
+            left: 36%
+    .about-page-banner 
+        h2
+            font-size: 38px
+        .banner-text
+            padding: 80px 0
+    .welcome-about 
+        ul 
+            li
+                flex: 0 0 100%
+    .why-chose-about 
+        .fig-holder
+            margin-bottom: 30px
+            figure
+                background-size: 100% 100%
+    .products_speci_slider 
+        .slick-prev
+            left: 47%
+    .smart-faucets 
+        .icon-holder
+            width: 100%
+            height: auto
+    .products_main 
+        .slick-prev
+            left: 44%
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 27%
+// 
+@media only screen and ( max-width: 767px )  and (min-width: 586px)
+    .container
+        max-width: 95%
+    h2
+        font-size: 25px
+    .main-header 
+        .a_btn
+            display: none
+        .logo
+            width: 150px
+        .nav-wapper
+            gap: 15px
+        .nav-last 
+            ul
+                gap: 24px
+            a
+                font-size: 14px
+    .main-banner 
+        h1
+            font-size: 35px
+            line-height: 40px
+        p
+            font-size: 20px
+        .fig-holder
+            height: 260px
+        .banner_text 
+            span
+                font-size: 25px
+        .slick-prev
+            bottom: 30px
+            left: 45%
+        .slick-next
+            bottom: 30px
+            left: 55%
+    .product_slider_box 
+        .text
+            min-height: 450px
+    .smart-faucets 
+        ul 
+            a
+                font-size: 14px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 22%
+    .smart-faucets 
+        .contact-info 
+            ul
+                flex-wrap: wrap
+    .Services_main 
+        .fig-holder
+            height: 358px
+    .Services_main 
+        .about-slider 
+            margin-bottom: 30px
+            img
+                height: 100%
+    .about-company 
+        h2
+            font-size: 20px
+            line-height: 40px
+        .slick-prev
+            left: 22px
+        .slick-next
+            right: 22px
+        .fig-holder
+            height: 308px
+        .about-slider
+            margin-top: 30px
+    .products_main 
+        .elements
+            padding-right: 0
+        .slick-prev
+            left: 43%
+    .product_slider_box 
+        h3
+            font-size: 24px
+            line-height: 32px
+    .main-footer 
+        .slick-prev
+            left: 45%
+        .slick-next
+            left: 55%
+        .bottom
+            padding: 10px 0
+            .wapper
+                justify-content: center
+                flex-wrap: wrap
+            p
+                font-size: 12px
+    .iapmo_inner 
+        .col_main_wapper
+            margin-bottom: 20px
+        .heading 
+            margin-bottom: 10px
+            h3
+                font-size: 13px
+        .fig_holder
+            height: 288px
+        .slick-next
+            left: 60%
+        .slick-prev
+            left: 36%
+    .about-page-banner 
+        h2
+            font-size: 30px
+        .banner-text
+            padding: 80px 0
+    .welcome-about 
+        ul 
+            li
+                flex: 0 0 100%
+    .why-chose-about 
+        .fig-holder
+            margin-bottom: 30px
+            figure
+                background-size: 100% 100%
+    .products_speci_slider 
+        .slick-prev
+            left: 44%
+    .mission-vision 
+        .box-wapper
+            flex-wrap: wrap
+        .fig-holder
+            flex: 0 0 100%
+        .text
+            width: 100%
+    .water_saving 
+        .icon-holder
+            margin-bottom: 30px
+    .water_saving 
+        ul 
+            li
+                font-size: 16px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 40%
+    .benefit_inner 
+        .fig_holder
+            margin-bottom: 20px
+    .products_speci 
+        .col-md-4
+            margin-bottom: 30px
+    .holiday_inner 
+        .fig_holder
+            margin-bottom: 20px
+// 
+@media screen and (max-width: 585px)
+    .container
+        max-width: 95%
+    h2
+        font-size: 20px
+    .span-text
+        font-size: 20px
+    .main-header 
+        .a_btn
+            display: none
+        .logo
+            width: 150px
+        .nav-wapper
+            gap: 15px
+        .nav-last 
+            ul
+                gap: 24px
+            a
+                font-size: 14px
+    .main-banner 
+        h1
+            font-size: 35px
+            line-height: 40px
+        p
+            font-size: 20px
+        .fig-holder
+            height: 208px
+        .banner_text 
+            span
+                font-size: 25px
+        .slick-prev
+            bottom: 30px
+            left: 38%
+        .slick-next
+            bottom: 30px
+            left: 55%
+    .product_slider_box 
+        .text
+            min-height: 450px
+    .smart-faucets 
+        ul 
+            a
+                font-size: 14px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 22%
+    .smart-faucets 
+        .contact-info 
+            ul
+                flex-wrap: wrap
+    .Services_main 
+        .fig-holder
+            height: 180px
+    .Services_main 
+        .about-slider 
+            margin-bottom: 30px
+            img
+                height: 100%
+        .slick-prev
+            left: 22px
+            width: 28px
+            height: 28px
+            background-size: 100%
+        .slick-next
+            right: 22px
+            width: 28px
+            height: 28px
+            background-size: 100%
+    .about-company 
+        h2
+            font-size: 17px
+            line-height: 40px
+        .slick-prev
+            left: 22px
+            width: 28px
+            height: 28px
+            background-size: 100%
+        .slick-next
+            right: 22px
+            width: 28px
+            height: 28px
+            background-size: 100%
+        .fig-holder
+            height: 160px
+        .about-slider
+            margin-top: 30px
+        h5
+            font-size: 15px
+        .text 
+            p
+                margin-bottom: 0
+    .products_main 
+        .elements
+            padding-right: 0
+        .slick-prev
+            left: 35%
+    .product_slider_box 
+        h3
+            font-size: 20px
+            line-height: 32px
+    .main-footer 
+        .top 
+            h2
+                line-height: 37px
+        .slick-prev
+            left: 39%
+        .slick-next
+            left: 59%
+        .bottom
+            padding: 10px 0
+            .wapper
+                justify-content: center
+                flex-wrap: wrap
+                text-align: center
+            p
+                font-size: 12px
+    .iapmo_inner 
+        .col_main_wapper
+            margin-bottom: 20px
+        .heading 
+            margin-bottom: 10px
+            h3
+                font-size: 13px
+        .fig_holder
+            height: 288px
+        .slick-next
+            left: 60%
+        .slick-prev
+            left: 36%
+    .about-page-banner 
+        h2
+            font-size: 30px
+        .banner-text
+            padding: 80px 0
+    .welcome-about 
+        .fig-holder
+            margin-bottom: 20px
+        ul 
+            li
+                flex: 0 0 100%
+    .why-chose-about 
+        .fig-holder
+            margin-bottom: 30px
+            figure
+                background-size: 100% 100%
+    .products_speci_slider 
+        .slick-prev
+            left: 35%
+    .mission-vision 
+        .box-wapper
+            flex-wrap: wrap
+        .fig-holder
+            flex: 0 0 100%
+        .text
+            width: 100%
+    .water_saving 
+        .icon-holder
+            margin-bottom: 30px
+            height: 295px
+    .water_saving 
+        ul 
+            li
+                font-size: 16px
+    .hours_index 
+        ul 
+            li
+                flex: 0 0 100%
+    .contact-us-main 
+        .contacts_holder 
+            .contact-us-page-submit
+                width: 100%
+    .smart-faucets 
+        .icon-holder
+            width: 100%
+            height: 279px
+            img
+                width: 100%
+                height: 100%
+                object-fit: contain
+    .mission-vision 
+        .button-wapper
+            .a_btn
+                flex: 0 0 100%
+                &:last-child
+                    margin-top: 0
+    .benefit_inner 
+        .fig_holder
+            margin-bottom: 20px
+    .products_speci 
+        .col-md-4
+            margin-bottom: 30px
+    .holiday_inner 
+        .fig_holder
+            margin-bottom: 20px
+    .contact-us_index
+        .wpcf7-spinner
+            display: block
+            margin: auto
+            margin-top: 10px
+// Mobile Menu
+@media screen and ( max-width: 991px )
+    .container
+        max-width: 95%
+    .pull_mob_nav
+        display: block
+        width: 55px
+        height: 40px
+        position: absolute
+        right: 30px
+        z-index: 2
+        border: 1px solid $blue
+        text-align: center
+        text-transform: uppercase
+        line-height: 40px
+        color: $blue
+        letter-spacing: 2px
+        border-radius: 0px
+        font-size: 12px
+        font-weight: 600
+        cursor: pointer
+        top: 14px
+    .main-header
+        .logo
+            width: 188px
+        .a_btn
+            display: none
+        .nav-last 
+            display: none
+            a
+                font-size: 14px
+            ul
+                position: fixed
+                flex-direction: column
+                left: 0
+                align-items: start
+                top: 0
+                background-color: $white
+                z-index: 2
+                height: 100%
+                padding: 30px
+                width: 233px
+                gap: 22px
+            .sub-menu
+                position: static
+                background-color: transparent
+                box-shadow: none
+                min-width: auto
+                display: none
+                padding: 0
+                width: 100%
+                margin-top: 10px
+                opacity: 1
+                visibility: visible
+                width: 153px
+                li
+                    margin-bottom: 6px
+                    border-bottom: 1px dashed $border-dash
+                    padding-bottom: 5px
+                    &:last-child
+                        margin-bottom: 0
+            .menu-dropdown
+                width: 118px
+                &:hover
+                    &::after
+                        +transform(none)
